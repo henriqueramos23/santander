@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.menu-superior {
+    padding: 25px;
+}
+
+.img-logo-santander {
+    width: 130px;
+}
+
+#link-voce {
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+#link-voce:hover {
+    text-decoration: underline;
+}
+#link-voce:active{
+    background: rgba(224, 221, 221, 0.7) 
+}
+
+#link-empresa {
+    color: black;
+    font-size: 18px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+#link-empresa:hover {
+    text-decoration: underline;
+}
+#link-empresa:active{
+    background: rgba(224, 221, 221, 0.7) 
+}
+
+
+.img-central {
+    width: 99vw;
+    height: auto;
+}
+
+.menu-inferior {
+    padding: 30px;
+}
+
+h1 {
+    margin: 30px auto 0 165px;
+    font-size: 40px;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 30px;
+}
+li {
+    width: 160px;
+    height: 160px;
+    padding: 5px;
+    margin-top: 45px;
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+li:hover{
+    background: rgba(195, 192, 192, 0.7)
+}
+li:active{
+    background: rgba(150, 147, 147, 0.7) 
+}
+
+.icon-inferior {
+    margin-top: 20px;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parag-inferior{
+    text-align: center;
+    margin-top: 20px;
+}
